@@ -7,6 +7,7 @@ def find_all_primes(limit)
 end
 
 def largest_prime_factor(number) 
-    find_all_primes(number).select {|prime|
+    factors = find_all_factors(number)
+    find_all_primes(factors).select {|prime|
       number % prime == 0}.last
 end
