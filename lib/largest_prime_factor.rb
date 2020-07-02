@@ -13,6 +13,5 @@ end
 
 def largest_prime_factor(number) 
     factors = find_all_factors(number)
-    find_all_primes(factors).select {|prime|
-      number % prime == 0}.last
+    
 end
