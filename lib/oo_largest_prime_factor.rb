@@ -4,5 +4,4 @@ class LargestPrimeFactor
     @number 
   end 
   
-  def 
 end 
