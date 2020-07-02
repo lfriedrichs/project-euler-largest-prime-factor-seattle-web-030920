@@ -1,10 +1,5 @@
 # Enter your procedural solution here!
-def is_a_prime(number)
-  (2...number).to_a.select {|div| 
-    if number % div == 0 
-      return false 
-    end}
-end
+require 'prime'
   
 def find_all_primes(limit) 
   (2...limit).to_a.select {|number| 
