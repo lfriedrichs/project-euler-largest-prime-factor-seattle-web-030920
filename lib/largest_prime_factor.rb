@@ -6,6 +6,11 @@ def find_all_primes(limit)
     Prime.prime?(number)}
 end
 
+def find_all_factors(number) 
+  (2...number).to_a.select {|factor| 
+    number % factor == 0}
+end 
+
 def largest_prime_factor(number) 
     factors = find_all_factors(number)
     find_all_primes(factors).select {|prime|
