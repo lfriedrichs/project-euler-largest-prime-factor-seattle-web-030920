@@ -4,5 +4,4 @@ class LargestPrimeFactor
     @number = number
   end 
   
-  def num
 end 
