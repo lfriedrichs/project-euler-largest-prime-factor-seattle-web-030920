@@ -7,5 +7,5 @@ def find_all_primes(limit)
 end
 
 def largest_prime_factor(number) 
-    find_all_primes(number).last
+    puts find_all_primes(number).last
 end
