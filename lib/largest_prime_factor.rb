@@ -12,5 +12,5 @@ def find_all_factors(number)
 end 
 
 def largest_prime_factor(number) 
-    number.prime_division.map(&:first)
+    number.prime_division.map(&:first).last
 end
