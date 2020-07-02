@@ -4,4 +4,8 @@ class LargestPrimeFactor
     @number = number
   end 
   
+  def number
+    @number.prime_division.map(&:first).last
+  end
+  
 end 
